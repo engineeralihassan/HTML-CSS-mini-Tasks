@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: #2222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+      }
+      form {
+        padding: 10px 20px;
+        width: 50%;
+        height: 50%;
+        background: #fff;
+        box-shadow: 2px 2px 2px #2222;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      input,
+      textarea {
+        padding: 10px 20px;
+        width: 100%;
+      }
+      label {
+        margin-top: 10px;
+      }
+      label input,
+      textarea {
+        margin-top: 10px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: black;
+        border: 1px solid green;
+        color: #fff;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/mzbonwvd" method="POST">
+      <label>
+        Your email:<br />
+
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Your message:<br />
+        <textarea name="message"></textarea>
+      </label>
+      <br />
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+      (function () {
+        var options = {
+          whatsapp: "+923133324617", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          pre_filled_message: "Hello Welcome to my company", // WhatsApp pre-filled message
+        };
+        var proto = "https:",
+          host = "getbutton.io",
+          url = proto + "//static." + host;
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = url + "/widget-send-button/js/init.js";
+        s.onload = function () {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+    <!-- /GetButton.io widget -->
+    <!-- GetButton.io widget -->
+    <script type="text/javascript">
+      (function () {
+        var options = {
+          googlemap:
+            "https://www.google.com/search?q=tahirhabib+doctor+location+renala+khurd&rlz=1C1GCEJ_enPK991PK991&oq=tahirhabib+doctor+location+renala+khurd&aqs=chrome..69i57.16213j0j7&sourceid=chrome&ie=UTF-8#", // Google Map url
+          whatsapp: "+923133324617", // WhatsApp number
+          call_to_action: "Message us", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "googlemap,whatsapp", // Order of buttons
+          pre_filled_message: "Hello Welcome to my company", // WhatsApp pre-filled message
+        };
+        var proto = "https:",
+          host = "getbutton.io",
+          url = proto + "//static." + host;
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = url + "/widget-send-button/js/init.js";
+        s.onload = function () {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+      })();
+    </script>
+    <!-- /GetButton.io widget -->
+  </body>
+</html>
