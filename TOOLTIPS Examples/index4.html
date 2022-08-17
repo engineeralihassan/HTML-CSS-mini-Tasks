@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css" />
+  </head>
+  <body>
+    <main>
+      <div class="example-elements">
+        <p data-tooltip="A sample text">Hover over me to see a tooltip</p>
+
+        <a
+          href="#"
+          data-tooltip="This link goes nowhere"
+          data-tooltip-location="right"
+        >
+          A typical anchor element
+        </a>
+
+        <button data-tooltip="Example Tooltip" data-tooltip-location="left">
+          Cool button
+        </button>
+      </div>
+
+      <div class="info-wrapper">
+        <p>
+          <span class="title-question">
+            You want a simple, animated & easy-to-use tooltip?
+          </span>
+          <span>
+            Just copy all the CSS declarations blocks starting with
+            <code>[data-tooltip].</code>
+          </span>
+        </p>
+        <p
+          data-tooltip="This is an example of a super long tooltip text that goes over multiple lines. &#xa; &#xa; Note: The tooltip size is dynamically adjusted to the content. However, a minimum and a maximum width are defined."
+          data-tooltip-location="bottom"
+        >
+          To use the tooltip, simply add the attribute »data-tooltip« with the
+          desired text to an element. P.S. Hover over me to see a long tooltip.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
